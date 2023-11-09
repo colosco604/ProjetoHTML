@@ -14,12 +14,13 @@ header {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 5px 50px;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    
 }
 
 .logo h1 {
@@ -53,7 +54,7 @@ header {
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: #0187a7;
+    background-color: #004aad;
     margin-top: 15px;
 }
 
@@ -110,4 +111,9 @@ header {
     .open {
         display: block;
     }
+}
+.carousel-inner{
+    padding: 50px;
+
+    background-color: #24252a;
 }
